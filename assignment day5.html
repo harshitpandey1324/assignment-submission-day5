@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/stylesheetforday5assignment.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <center>
+        <h1><u>Registration form</u></h1>
+        <form action="submitted.html">
+            <div>
+                <label for="first name">First name:</label>
+                <input type="text" placeholder="first name" name="myfirstname" id="fname" maxlength="15" />
+            </div>
+            <br />
+            <div>
+                <label for="last name">Last name:</label>
+                <input type="text" placeholder="last name" name="mylastname" id="lname" maxlength="15" />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="email" name="myemail" id="email" />
+            </div>
+            <br />
+            <div>
+                <label for="Gender">Select you Gender:</label><br /><br />
+                <input type="radio" name="mygender" id="Gender" />Male
+                <input type="radio" name="mygender" id="Gender" />Female
+                <input type="radio" name="mygender" id="Gender" /> Other
+            </div>
+            <br />
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="Date" placeholder="DOB" name="myDate of Birth" id="dob" />
+            </div>
+            <br />
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" placeholder="username" name="myusername" id="username" />
+            </div>
+            <br />
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="password" name="mypassword" id="password" />
+            </div>
+            <br />
+            <div>
+                <label for="confirmpassword">Confirm password:</label>
+                <input type="password" placeholder="confirm password" name="myconfirmpassword" id="password" />
+            </div>
+            <br />
+            <div>
+                <label for="about">
+                    Write about Yourself:</label><br /><br />
+                <textarea placeholder="About yourself" name="aboutyourself" id="about" cols="30" rows="3"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now" id="submit" />
+                <input type="reset" value="Reset Now" id="reset" />
+            </div>
+        </form>
+    </center>
+</body>
+
+</html>
